@@ -2,22 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Ledger Signing</title>
+    <title>Ledger Public Key</title>
     <script type="module" src="lib/main.ts"></script>
   </head>
   <body>
     <h1>
-      Ledger Utility For Signing Raw Transactions
+      Ledger Utility For Deriving Public Key
     </h1>
-    <button id="sign-message-button">Sign message</button>
     <button id="derive-address-button">Derive address</button>
-    <input id="message-input" type="text" placeholder="Message to sign"></input>
     <div>
       <ul>
         <li>Address: <span id="address"></span></li>
         <li>Public Key: <span id="publicKey"></span></li>
-        <li>Message: <span id="message"></span></li>
-        <li>Signature: <span id="signature"></span></li>
       </ul>
     </div>
   </body>
