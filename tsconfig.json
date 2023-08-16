@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "outDir": "src/libjs",
+    "rootDir": "src/lib",
+    "strict": true,
+    "preserveSymlinks": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/lib/**/*"
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+.github
+*.log
+dist/
+.parcel-cache
+
+src/libjs/
